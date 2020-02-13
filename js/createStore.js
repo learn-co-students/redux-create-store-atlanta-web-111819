@@ -1,4 +1,5 @@
 let state;
+let i = 0
 
 function reducer(state = { count: 0 }, action) {
   switch (action.type) {
